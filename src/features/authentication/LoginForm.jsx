@@ -31,6 +31,7 @@ function LoginForm() {
 
   return (
     <Form onSubmit={handleSubmit}>
+      <div>Free User: test2@test.com Password: 123456</div>
       <FormRowVertical label="Email address">
         <Input
           type="email"
